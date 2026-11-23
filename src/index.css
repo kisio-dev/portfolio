@@ -2,7 +2,7 @@
 
 :root {
   font-family: Inter, system-ui, sans-serif;
-  color: #f4f4f5;
+  color: #000000;
   background: #09090f;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -19,19 +19,19 @@ body {
   background:
     radial-gradient(
       ellipse at 50% 0%,
-      rgba(237, 100, 58, 0.12),
+      rgba(237, 58, 58, 0.12),
       transparent 50%
     ),
-    #09090f;
+    #ffffff;
 }
 
 ::selection {
   background: #f67b5c;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .glass {
-  background: rgba(18, 18, 28, 0.75);
+  background: rgba(255, 255, 255, 0.75);
   backdrop-filter: blur(16px);
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
@@ -45,6 +45,6 @@ body {
 
 .project-card:hover {
   transform: translateY(-5px);
-  border-color: rgba(255, 60, 0, 0.45);
+  border-color: rgba(255, 0, 0, 0.45);
   box-shadow: 0 12px 40px rgba(237, 58, 58, 0.12);
 }
